@@ -1,0 +1,59 @@
+@import url("reset.css");
+
+.history-header {
+    color: blueviolet;
+}
+
+.section-text.red-text {
+    color: red;
+}
+
+.city .section-text {
+    color: green;
+}
+
+.cossacks p {
+    color: mediumseagreen;
+}
+
+.footer * {
+    color: aqua;
+    background-color: red;
+}
+
+img {
+    width: 760px;
+}
+
+[title] {
+    color: goldenrod;
+}
+
+#liberty-header {
+    color: salmon;
+}
+
+[title^="Сучасна"] {
+    color: rgb(160, 113, 190);
+}
+
+[title$="міст"] {
+    color: rgb(2, 16, 43);
+}
+
+span,
+mark {
+    color: rgb(84, 248, 7);
+}
+
+.new-ukraine ul > li {
+    color: rgb(250, 36, 7);
+}
+
+.main-top-title + p {
+    color: rgb(214, 6, 241);
+} 
+
+.kiyv-pic ~ div {
+    color: white;
+}
