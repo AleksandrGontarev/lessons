@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Work+Sans&display=swap');
-
 @import url('fonts.css');
 
 @import url('reset.css');
@@ -26,39 +24,30 @@
 
 .title {
   font-family: "CenturyGothic", sans-serif;
-  color: rgba(16, 16, 16, 0.9);
+  color: #101010e6;
   font-size: 15px;
-  font-style: normal;
-  font-weight: normal;
-  text-align: left;
-  text-decoration: none;
-  text-shadow: none;
-  text-transform: none;
   line-height: 150%;
-  letter-spacing: normal;
-  white-space: normal;
-  word-spacing: normal;
 }
 
 .underlined-text {
   text-decoration: underline;
   font-size: 18px;
-  color: rgb(148, 240, 10);
+  color: #94f00a;
   font-style: italic;
   line-height: 3.2;
   text-decoration-line: underline;
   text-decoration-style: wavy;
-  text-decoration-color: rgb(34, 245, 6);
+  text-decoration-color: #22f506;
 }
 
 .page-title,
 span {
-  color: rgb(38, 71, 158);
+  color: #26479e;
   font-size: 24px;
   text-transform: uppercase;
-  font-weight: bold;
+  font-weight: 600;
   text-align: center;
-  text-shadow: 4px 4px 4px rgb(173, 91, 206);
+  text-shadow: 4px 4px 4px #ad5bce;
 }
 
 span {
@@ -76,7 +65,6 @@ span {
 
 .maket-personal-portflio {
   font-family: "Work Sans", sans-serif;
-  font-style: normal;
 }
 
 .portflio-title {
@@ -95,7 +83,6 @@ span {
 
 .maket-busines {
   font-family: "DM Sans", sans-serif;
-  font-style: normal;
 }
 
 .busines-title {
@@ -114,7 +101,6 @@ span {
 
 .maket-landing {
   font-family: "Roboto", sans-serif;
-  font-style: normal;
 }
 
 .landing-title {
@@ -135,13 +121,9 @@ span {
 .contacts {
   font-size: 20px;
   text-transform: uppercase;
-  color: rgba(247, 202, 3, 0.63);
+  color: #f7ca03a1;
   text-shadow: 1px 1px 1px black;
   letter-spacing: 3px;
-}
-
-.telephone {
-  text-align: left;
 }
 
 .mail {
