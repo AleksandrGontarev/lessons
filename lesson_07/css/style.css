@@ -255,7 +255,9 @@
 
 .promote-list__item::before {
     content: url(../img/agency/list-marker.svg);
-    margin-right: 16px;
+    margin-right: 16px; 
+    width: 8px;
+    height: 8px;
 }
 
 .service-list__item {
