@@ -47,20 +47,12 @@
     font-size: 32px;
 }
 
-.man {
-    max-width: 1170px;
-}
-
-.abstract {
-    max-width: 570px;
-}
 
 .radius {
     border-radius: 6px;
 }
-
-.cover-img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+img {
+    max-width: 100%;
+    height: auto;
 }
+
