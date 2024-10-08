@@ -29,30 +29,32 @@
 .container>*:not(.block:last-child) {
     margin-bottom: 20px;
 }
+
 .block {
     font-size: 0;
     border-radius: 10px;
     border: 1px white solid;
     padding: 15px;
 }
+
 .block-img {
     display: inline-block;
-    margin-right: 20px;
+    padding-right: 20px;
     vertical-align: middle;
     
 }
+
 .block-text {
     display: inline-block;
     vertical-align: middle;
     font-size: 32px;
 }
 
-
 .radius {
     border-radius: 6px;
 }
+
 img {
     max-width: 100%;
-    height: auto;
 }
 
