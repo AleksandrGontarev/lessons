@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,800;1,800&display=swap');
+@import url(reset.css);
+
+.header,
+.footer {
+    background-color: gray;
+    color: beige;
+    font-size: 40px;
+    font-weight: 700;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+}
+
+[class*="__container"] {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-inline: 15px;
+    padding-block: 100px;
+}
+
+.block-img,
+.card {
+    background-color: #28293E;
+}
+
+.block-img__box {
+    width: 570px;
+    height: 600px;
+    position: relative;
+    padding-block: 100px 130px;
+    margin: 0 auto;
+}
+
+.block-img__circle {
+    width: 370px;
+    height: 370px;
+    background-color: #32334C;
+    border-radius: 50%;
+    margin: 0 auto;
+
+}
+
+[class*="circle-box__"] {
+    position: absolute;
+}
+
+.circle-box__stars {
+    inset-inline-start: 304px;
+    inset-block-start: 40px;
+}
+
+.circle-box__cloud {
+    inset-inline-end: 0;
+    inset-block-start: 80px;
+}
+
+.circle-box__girl {
+    inset-inline-end: 0;
+    inset-block-end: 115px;
+}
+
+.circle-box__arrow {
+    inset-inline-end: 160px;
+    inset-block-end: 20px;
+}
+
+.circle-box__mail {
+    inset-inline-start: 56px;
+    inset-block-end: 60px;
+}
+
+.circle-box__shape {
+    inset-inline-start: 0;
+    inset-block-end: 190px;
+}
+
+
+.circle-box__note-bock,
+.circle-box__note-bock-circle,
+.circle-box__note-bock-block {
+    background-color: #B550F8;
+    inset-inline-start: 0;
+    inset-block-start: 0;
+}
+
+.circle-box__note-bock {
+    width: 246px;
+    height: 246px;
+    border-radius: 50%;
+}
+
+.circle-box__note-bock-circle {
+    width: 246px;
+    height: 246px;
+    border-radius: 50%;
+    z-index: 0;
+}
+
+.circle-box__note-bock-block {
+    width: 246px;
+    height: 182px;
+    inset-block-start: 123px;
+    z-index: 0;
+}
+
+.circle-box__note-bock-pic {
+    width: 255px;
+    height: 265px;
+    inset-inline-start: 21px;
+    inset-block-start: 24px;
+    z-index: 1;
+}
+
+.card__box {
+    width: 448px;
+    height: 576px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.card__background {
+    position: absolute;
+    z-index: 0;
+}
+
+.card__body {
+    position: absolute;
+    z-index: 1;
+    font-family: "Epilogue", sans-serif;
+    inset-block-end: 51px;
+    inset-inline-start: 48px;
+}
+
+.card__button {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #391400;
+    padding: 5px 16px 1px 16px;
+    border-radius: 19px;
+    background-color: #FFF;
+    margin-bottom: 23px;
+}
+
+.card__button:hover {
+    background-color: #86776f;
+}
+
+.card__header {
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 48px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
