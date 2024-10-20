@@ -155,3 +155,43 @@
     color: #ffffff;
     text-transform: uppercase;
 }
+
+.circle-box__pic-stars {
+    max-width: 112px;
+    max-height: 112px;
+}
+
+.circle-box__pic-cloud {
+    max-width: 112px;
+    max-height: 82px;
+}
+
+.circle-box__pic-girl {
+    max-width: 246px;
+    max-height: 305px;
+}
+
+.circle-box__pic-arrow {
+    max-width: 94px;
+    max-height: 35px;
+}
+
+.circle-box__pic-mail  {
+    max-width: 214px;
+    max-height: 112px;
+}
+
+.circle-box__pic-shape {
+    max-width: 142px;
+    max-height: 73px;
+}
+
+.circle-box__pic-lap-top {
+    max-width: 255px;
+    max-height: 265px;
+}
+
+.card__pic-background {
+    max-width: 448px;
+    max-height: 576px;
+}
